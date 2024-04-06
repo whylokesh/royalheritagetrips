@@ -44,12 +44,20 @@ const Header = () => {
                             <a href="/#about" className="nav__link">About</a>
                         </li>
 
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="/#popular" className="nav__link">Popular</a>
+                        </li> */}
+
+                        {/* <li className="nav__item">
+                            <a href="/#explore" className="nav__link">Explore</a>
+                        </li> */}
+
+                        <li className="nav__item">
+                            <a href="/tour-main" className="nav__link">Tours</a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="/#explore" className="nav__link">Explore</a>
+                            <a href="/car-rental" className="nav__link">Car Rentel</a>
                         </li>
                     </ul>
 
