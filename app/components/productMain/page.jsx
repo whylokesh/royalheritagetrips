@@ -3,7 +3,7 @@ import React from 'react'
 const ProductMain = () => {
     return (
         <>
-            <div className="text-black-400 bg-black-900 body-font overflow-hidden mt-10">
+            <div className="text-black-400 bg-black-900 body-font overflow-hidden lg:mt-5">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="lg:w-full mx-auto flex flex-wrap">
                         <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400" />
