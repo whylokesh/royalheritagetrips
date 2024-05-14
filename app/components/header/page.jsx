@@ -52,9 +52,9 @@ const Header = () => {
                             <a href="/#explore" className="nav__link">Explore</a>
                         </li> */}
 
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="/tour-main" className="nav__link">Tours</a>
-                        </li>
+                        </li> */}
 
                         <li className="nav__item">
                             <a href="/car-rental" className="nav__link">Car Rentel</a>
