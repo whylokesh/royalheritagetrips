@@ -141,12 +141,10 @@ const ProductMain = () => {
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">
-              Raw Denim Heirloom Man Braid
+              Our Services & Benefits
             </h1>
             <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug.
+              We specialize in creating unforgettable travel experiences tailored to your interests and needs. Our expert team ensures that every aspect of your journey is seamless and memorable.
             </p>
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -165,7 +163,7 @@ const ProductMain = () => {
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
                 <span class="title-font font-medium text-white">
-                  Authentic Cliche Forage
+                  Assistance on Arrival.
                 </span>
               </div>
             </div>
@@ -184,7 +182,7 @@ const ProductMain = () => {
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
                 <span class="title-font font-medium text-white">
-                  Kinfolk Chips Snackwave
+                  A 24 – hour helpline.
                 </span>
               </div>
             </div>
@@ -203,7 +201,7 @@ const ProductMain = () => {
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
                 <span class="title-font font-medium text-white">
-                  Coloring Book Ethical
+                  Daily Breakfast
                 </span>
               </div>
             </div>
@@ -222,7 +220,7 @@ const ProductMain = () => {
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
                 <span class="title-font font-medium text-white">
-                  Typewriter Polaroid Cray
+                  Hotel Accommodation
                 </span>
               </div>
             </div>
@@ -241,7 +239,7 @@ const ProductMain = () => {
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
                 <span class="title-font font-medium text-white">
-                  Pack Truffaut Blue
+                  Travelling in an AC car.
                 </span>
               </div>
             </div>
@@ -260,7 +258,7 @@ const ProductMain = () => {
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
                 <span class="title-font font-medium text-white">
-                  The Catcher In The Rye
+                  Friendly Vibe
                 </span>
               </div>
             </div>
