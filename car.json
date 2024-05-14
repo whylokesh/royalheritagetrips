@@ -1,0 +1,20 @@
+[
+  {
+    "category": "SUV",
+    "name": "Innova crysta",
+    "price": "x",
+    "image_url": "https://imgd.aeplcdn.com/664x374/n/cw/ec/140809/innova-crysta-exterior-right-front-three-quarter-2.png?isig=0&q=80"
+  },
+  {
+    "category": "SUV",
+    "name": "Innova",
+    "price": "x",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AH58bSpETJtDlWcZZt5LWf3mp-Oa5_3gXw&s"
+  },
+  {
+    "category": "SUV",
+    "name": "Ertiga",
+    "price": "x",
+    "image_url": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/115777/ertiga-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80"
+  }
+]

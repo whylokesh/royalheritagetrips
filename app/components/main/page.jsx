@@ -1,6 +1,9 @@
+"use client"
 import React from 'react'
-
+import ToursData from "@/csvjson.json";
+import { useRouter } from 'next/navigation';
 const Main = () => {
+    const router = useRouter();
     return (
         // < !--==================== MAIN ==================== -->
         <main className="main">
@@ -20,7 +23,7 @@ const Main = () => {
                             The World
                         </h1>
 
-                        <p className="home__description">
+                        <p className="home__description" >
                             Live the trips exploring the world, discover
                             paradises, islands, mountains and much
                             more, get your trip now.
@@ -90,61 +93,32 @@ const Main = () => {
 
             {/* <!--==================== POPULAR ====================--> */}
             <section className="popular section" id="popular">
-                <h2 className="section__title">
-                    Enjoy The Beauty <br />
-                    Of The World
+    <h2 className="section__title">
+        Enjoy The Beauty <br />
+        Of The World
+    </h2>
+
+    <div className="popular__container container grid">
+        {ToursData.map((tour) => (
+            <article key={tour.id} className="popular__card" onClick={()=> router.push(`/tour-main?id=${tour.id}`)}>
+                <div className="popular__image">
+                    <img src={tour.image_url} alt="popular image" className="popular__img" />
+                    <div className="popular__shadow"></div>
+                </div>
+
+                <h2 className="popular__title">
+                    {tour.name}
                 </h2>
 
-                <div className="popular__container container grid">
-                    <article className="popular__card">
-                        <div className="popular__image">
-                            <img src="images/popular-mountain.jpg" alt="popular image" className="popular__img" />
-                            <div className="popular__shadow"></div>
-                        </div>
-
-                        <h2 className="popular__title">
-                            Logan Mountain
-                        </h2>
-
-                        <div className="popular__location">
-                            <i className="ri-map-pin-line"></i>
-                            <span>Canadá</span>
-                        </div>
-                    </article>
-
-                    <article className="popular__card">
-                        <div className="popular__image">
-                            <img src="images/popular-forest.jpg" alt="popular image" className="popular__img" />
-                            <div className="popular__shadow"></div>
-                        </div>
-
-                        <h2 className="popular__title">
-                            Spike Forest
-                        </h2>
-
-                        <div className="popular__location">
-                            <i className="ri-map-pin-line"></i>
-                            <span>Irland</span>
-                        </div>
-                    </article>
-
-                    <article className="popular__card">
-                        <div className="popular__image">
-                            <img src="images/popular-lake.jpg" alt="popular image" className="popular__img" />
-                            <div className="popular__shadow"></div>
-                        </div>
-
-                        <h2 className="popular__title">
-                            Garda Lake
-                        </h2>
-
-                        <div className="popular__location">
-                            <i className="ri-map-pin-line"></i>
-                            <span>Italy</span>
-                        </div>
-                    </article>
+                <div className="popular__location">
+                    <i className="ri-map-pin-line"></i>
+                    <span>{tour.price}</span>
                 </div>
-            </section>
+            </article>
+        ))}
+    </div>
+</section>
+
 
             {/* <!--==================== EXPLORE ====================--> */}
             <section className="explore section" id="explore">
