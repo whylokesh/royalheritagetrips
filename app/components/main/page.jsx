@@ -29,33 +29,33 @@ const Main = () => {
                             more, get your trip now.
                         </p>
 
-                        <a href="#" className="button">
+                        <a href="https://wa.me/917976358709?text=hello,+I+want+to+know+more+about+your+services." className="button">
                             Start Your Journey <i className="ri-arrow-right-line"></i>
                         </a>
                     </div>
 
                     <div className="home__cards grid">
                         <article className="home__card">
-                            <img src="images/home-trees.jpg" alt="home image" className="home__card-img" />
-                            <h3 className="home__card-title">Croatia</h3>
+                            <img src="images/delhi.webp" alt="home image" className="home__card-img" />
+                            <h3 className="home__card-title">Delhi</h3>
                             <div className="home__card-shadow"></div>
                         </article>
 
                         <article className="home__card">
-                            <img src="images/home-lake.jpg" alt="home image" className="home__card-img" />
-                            <h3 className="home__card-title">Iceland</h3>
+                            <img src="images/jaipur.webp" alt="home image" className="home__card-img" />
+                            <h3 className="home__card-title">Jaipur</h3>
                             <div className="home__card-shadow"></div>
                         </article>
 
                         <article className="home__card">
-                            <img src="images/home-mountain.jpg" alt="home image" className="home__card-img" />
-                            <h3 className="home__card-title">Italy</h3>
+                            <img src="images/jodhpur.webp" alt="home image" className="home__card-img" />
+                            <h3 className="home__card-title">Jodhpur</h3>
                             <div className="home__card-shadow"></div>
                         </article>
 
                         <article className="home__card">
-                            <img src="images/home-beach.jpg" alt="home image" className="home__card-img" />
-                            <h3 className="home__card-title">Spain</h3>
+                            <img src="images/udaipur.webp" alt="home image" className="home__card-img" />
+                            <h3 className="home__card-title">Udaipur</h3>
                             <div className="home__card-shadow"></div>
                         </article>
                     </div>
@@ -79,13 +79,13 @@ const Main = () => {
                             explore the paradises of the world.
                         </p>
 
-                        <a href="#" className="button">
+                        <a href="https://wa.me/917976358709?text=hello,+I+want+to+know+more+about+your+services." className="button">
                             Explore Travel <i className="ri-arrow-right-line"></i>
                         </a>
                     </div>
 
                     <div className="about__image">
-                        <img src="images/about-beach.jpg" alt="about image" className="about__img" />
+                        <img src="images/heritage.jpg" alt="about image" className="about__img" />
                         <div className="about__shadow"></div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@ const Main = () => {
                         </p>
 
                         <form action="" className="join__form">
-                            <input type="email" placeholder="Enter your email" className="join__input" />
+                            <input type="email" placeholder="Enter your message" className="join__input" />
 
                             <button className="join__button button">
                                 Subscribe Our Newsletter <i className="ri-arrow-right-line"></i>
