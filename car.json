@@ -9,12 +9,36 @@
     "category": "SUV",
     "name": "Innova",
     "price": "x",
-    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3AH58bSpETJtDlWcZZt5LWf3mp-Oa5_3gXw&s"
+    "image_url": "https://5.imimg.com/data5/SH/NH/MY-6794231/toyota-innova.jpg"
   },
   {
     "category": "SUV",
     "name": "Ertiga",
     "price": "x",
     "image_url": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/115777/ertiga-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80"
+  },
+  {
+    "category": "SUV",
+    "name": "Etios",
+    "price": "x",
+    "image_url": "https://imgd.aeplcdn.com/1200x900/cw/ec/24731/Toyota-Platinum-Etios-Exterior-119077.jpg?wm=0&q=80"
+  },
+  {
+    "category": "Sedan",
+    "name": "Swift Desire",
+    "price": "x",
+    "image_url": "https://imgd.aeplcdn.com/664x374/n/cw/ec/45691/dzire-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80"
+  },
+  {
+    "category": "Sedan",
+    "name": "Aura",
+    "price": "x",
+    "image_url": "https://imgd.aeplcdn.com/664x374/n/cw/ec/139133/aura-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80"
+  },
+  {
+    "category": "Tempo",
+    "name": "Tempo",
+    "price": "x",
+    "image_url": "https://www.bluebirdtravels.in/wp-content/uploads/2017/01/Tempo_Traveller_PI-1200x900-cropped.png"
   }
 ]
