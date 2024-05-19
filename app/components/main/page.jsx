@@ -102,7 +102,7 @@ const Main = () => {
         {ToursData.map((tour) => (
             <article key={tour.id} className="popular__card" onClick={()=> router.push(`/tour-main?id=${tour.id}`)}>
                 <div className="popular__image">
-                    <img src={tour.image_url} alt="popular image" className="popular__img" />
+                    <img src={tour.image_url[0]} alt="popular image" className="popular__img" />
                     <div className="popular__shadow"></div>
                 </div>
 
