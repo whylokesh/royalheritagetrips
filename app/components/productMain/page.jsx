@@ -46,11 +46,11 @@ const ProductMain = () => {
                 <div className="container px-5 py-24 mx-auto">
                     <div className="lg:w-full mx-auto flex flex-wrap">
                     <div id="default-carousel" className="relative w-full" data-carousel="slide">
-                            <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+                            <div className="relative overflow-hidden rounded-lg lg:h-[35rem] md:h-[35rem] h-[20rem]">
                                 {tour && tour.image_url.length > 0 && (
                                     <img
                                         src={tour.image_url[currentImageIndex]}
-                                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit object-cover "
                                         alt={`Slide ${currentImageIndex + 1}`}
                                     />
                                 )}
