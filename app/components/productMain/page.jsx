@@ -141,8 +141,8 @@ const ProductMain = () => {
                                     {tour ? tour.price : ""}
                                 </span> */}
 
-                                <div class="flex items-center">
-                                    <span class="mr-3">Cars Available</span>
+                                <div class="flex items-center lg:flex-row md:flex-row flex-col">
+                                    <span class="mr-3 mb-1">Cars Available</span>
                                     <div class="relative">
                                         <select class="rounded border border-gray-700 focus:ring-2 focus:ring-indigo-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-indigo-500 text-white pl-3 pr-10">
                                             {tour && tour.cars && tour.cars.split(",").map((carOption, index) => (
