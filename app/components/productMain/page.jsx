@@ -141,7 +141,7 @@ const ProductMain = () => {
                                     {tour ? tour.price : ""}
                                 </span> */}
 
-                                <div class="flex ml-1 items-center">
+                                <div class="flex items-center">
                                     <span class="mr-3">Cars Available</span>
                                     <div class="relative">
                                         <select class="rounded border border-gray-700 focus:ring-2 focus:ring-indigo-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-indigo-500 text-white pl-3 pr-10">
@@ -156,13 +156,8 @@ const ProductMain = () => {
                                         </span>
                                     </div>
                                 </div>
-                                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onClick={handleWhatsAppMessage}>
+                                <button className="flex ml-auto button cursor-pointer" onClick={handleWhatsAppMessage}>
                                     Book Now
-                                </button>
-                                <button className="rounded-full w-10 h-10 bg-black-800 p-0 border-0 inline-flex items-center justify-center text-black-500 ml-4">
-                                    <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
-                                        <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l9.84-9.84a5.5 5.5 0 000-7.78z"></path>
-                                    </svg>
                                 </button>
                             </div>
                         </div>

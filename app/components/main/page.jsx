@@ -93,31 +93,34 @@ const Main = () => {
 
             {/* <!--==================== POPULAR ====================--> */}
             <section className="popular section" id="popular">
-    <h2 className="section__title">
-        Enjoy The Beauty <br />
-        Of The World
-    </h2>
-
-    <div className="popular__container container grid">
-        {ToursData.map((tour) => (
-            <article key={tour.id} className="popular__card" onClick={()=> router.push(`/tour-main?id=${tour.id}`)}>
-                <div className="popular__image ">
-                    <img src={tour.image_url[0]} alt="popular image" className="popular__img h-56   " />
-                    <div className="popular__shadow"></div>
-                </div>
-
-                <h2 className="popular__title">
-                    {tour.name}
+                <h2 className="section__title">
+                    Enjoy The Beauty <br />
+                    Of The World
                 </h2>
 
-                <div className="popular__location">
-                    <i className="ri-map-pin-line"></i>
-                    <span>{tour.price}</span>
+                <div className="popular__container container grid">
+                    {ToursData.map((tour) => (
+                        <article key={tour.id} className="popular__card" onClick={() => router.push(`/tour-main?id=${tour.id}`)}>
+                            <div className="popular__image ">
+                                <img src={tour.image_url[0]} alt="popular image" className="popular__img h-56   " />
+                                <div className="popular__shadow"></div>
+                            </div>
+
+                            <h2 className="popular__title">
+                                {tour.name.length > 50 ? `${tour.name.substring(0, 50)}...` : tour.name}
+                            </h2>
+
+                            <div className="popular__location mt-3">
+                                <div>
+                                    <a onClick={() => router.push(`/tour-main?id=${tour.id}`)} className="button cursor-pointer">
+                                        Show Details <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    ))}
                 </div>
-            </article>
-        ))}
-    </div>
-</section>
+            </section>
 
 
             {/* <!--==================== EXPLORE ====================--> */}
